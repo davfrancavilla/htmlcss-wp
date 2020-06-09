@@ -143,6 +143,10 @@ aside {
 
 .sidebox-title {
     font-weight: lighter;
+    color: #222;
+}
+
+.left .sidebox-title {
     display: inline;
     padding-top: 5px;
     padding-left: 5px;
@@ -151,8 +155,15 @@ aside {
 main {
     width: 58%;
     height: 400px;
-    background-color: white;
+    /* background-color: white; */
     float: left;
+}
+
+.content {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .right {

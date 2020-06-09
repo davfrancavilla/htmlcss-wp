@@ -80,7 +80,7 @@ body {
 }
 
 nav {
-    background-color: #514641;
+    background-color: #666;
     height: 50px;
     width: 100%;
     margin-bottom: 1%;
@@ -91,13 +91,14 @@ nav {
 
 nav li {
     display: inline-block;
-    font-size: 32px;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    color: white;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 nav li:hover {
-    background-color: #302b27;
+    background-color: #444;
     cursor: pointer;
 }
 

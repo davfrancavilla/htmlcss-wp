@@ -170,14 +170,6 @@ main {
     margin-left: 1%;
 }
 
-.right>div:first-child{
-    height: 200px;
-}
-
-.right>div:last-child {
-    height: 100px;
-}
-
 .search {
     width: 95%;
     height: 50px;

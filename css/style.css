@@ -116,7 +116,7 @@ aside {
     color: #faa501;
     font-size: 24px;
     display: inline;
-    margin-left: 3px; */
+    margin-left: 3px;
 }
 
 .sidebox {
@@ -133,12 +133,20 @@ aside {
     margin: 10px;
     list-style: none;
     line-height: 20px;
-    color: #1b8000;
     text-transform: capitalize;
 }
 
 .sidebox li {
     margin-bottom: 10px;
+}
+
+.sidebox a {
+    text-decoration: none;
+    color: #1b8000;
+}
+
+.sidebox a:hover{
+    text-decoration: none;
 }
 
 .sidebox-title {
@@ -177,10 +185,44 @@ main {
 }
 
 footer {
+    text-align: center;
+    color: #cecece;
     margin-top: 1%;
-    height: 100px;
     width: 100%;
     border-radius: 3px;
     background-color: white;
     position: relative;
+}
+
+footer span {
+    display: block;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+hr {
+    width: 98%;
+    margin: auto;
+}
+
+.logos {
+    width: 33%;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+.logos i {
+    font-size: 28px;
+}
+
+.fa-instagram:hover {
+    color: #cf4f74;
+}
+
+.fa-facebook-square:hover {
+    color: #307aeb;
+}
+
+.fa-github:hover{
+    color: black;
 }
